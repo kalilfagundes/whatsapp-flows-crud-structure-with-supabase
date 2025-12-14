@@ -19,8 +19,8 @@ Config the .env file with your supabase url and anon key.
 
 ### WhatsApp Flow Endpoint Setup
 
-1. Create a private & public key pair for testing, if you haven't already, using the included script `src/keyGenerator.js`. Run the below command in the terminal to generate a key pair, then follow [these steps to upload the key pair](https://developers.facebook.com/docs/whatsapp/flows/guides/implementingyourflowendpoint#upload_public_key) to your business phone number.
-2. Set your environment variables for private key and passphrase. Make sure a multiline key has correct line breaks.
+1. Create a private & public key pair for testing, then follow [these steps to upload the key pair](https://developers.facebook.com/docs/whatsapp/flows/guides/implementingyourflowendpoint#upload_public_key) to your business phone number.
+2. Set your environment variables for private key. Make sure a multiline key has correct line breaks.
 3. Run the server.
 
 ## Create a Whatsapp Flows in your business account using templates on flows-json/admin.json and flows-json/book-appointment.json
