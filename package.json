@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-flows-endpoint",
+  "version": "1.0.0",
+  "description": "An example endpoint server for WhatsApp Flows https://developers.facebook.com/docs/whatsapp/flows",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "npx nodemon src/server.js"
+  },
+  "author": "WhatsApp Flows Team",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.86.2",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.19",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
